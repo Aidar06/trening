@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: black;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    color: white;
+    margin: 20px 0;
+    font-family: sans-serif;
+  }
+  .group{
+    width: 95%;
+    &--block{
+      margin: 10px;
+      background: rgb(243, 92, 2);
+      backdrop-filter: blur(5px);
+      border-radius: 10px;
+      padding: 10px;
+      position: relative;
+      &__ind{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        color: white;
+        font-size: 18px;
+      }
+      &__info{
+        color: white;
+        font-family: sans-serif;
+        h1{
+          font-size: 20px;
+        }
+        p{
+          font-size: 18px;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
