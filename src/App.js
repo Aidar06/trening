@@ -34,7 +34,7 @@ function App() {
                   {ind+1}
                 </div>
                 <div className='group--block__info'>
-                  <h3>Имя:</h3>g
+                  <h3>Имя:</h3>
                   <p>{el.name}</p>
                 </div>
                 <div style={{marginTop: '6px'}} className='group--block__info'>
